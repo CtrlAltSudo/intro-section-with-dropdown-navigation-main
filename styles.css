@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+#nav {
+    margin-top: 2rem;
+    display: flex;
+}
+#logoContainer {
+    padding-left: 2rem;
+}
+#navLinks {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+#loginNav {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-left: auto;
+}
+#logo {
+    margin: 0 auto 0;
+}
