@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --almostWhite: hsl(0, 0%, 98%);
+    --mediumGrey: hsl(0, 0%, 41%);
+    --almostBlack: hsl(0, 0%, 8%);
+}
 body {
     margin: 0;
 }
@@ -11,18 +16,53 @@ body {
 }
 #logoContainer {
     padding-left: 2rem;
+    margin: auto 0 auto 0;
 }
 #navLinks {
     list-style: none;
     display: flex;
     gap: 2rem;
+    margin: auto 0 auto 0;
 }
 #loginNav {
     list-style: none;
     display: flex;
     gap: 2rem;
     margin-left: auto;
+    padding-right: 2rem;
+}
+#loginNav li:nth-of-type(2){
+    border: 1px black solid;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.5rem;
 }
 #logo {
     margin: 0 auto 0;
+}
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+}
+#secondaryContainer {
+    width: 35rem;
+}
+#secondaryContainer img{
+    width: 40rem;
+    height: auto;
+}
+#containers {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    gap: 10rem;
+}
+
+h1 {
+    font-size: 6rem;
+    color: var(--almostBlack);
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
